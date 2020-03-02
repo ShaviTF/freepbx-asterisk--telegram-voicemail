@@ -1,0 +1,13 @@
+[Unit]
+Description=FreePBX telegram bot
+After=multi-user.target
+
+[Service]
+Type=idle
+
+WorkingDirectory=/opt/telegram_voicemail/scripts
+ExecStart=/opt/telegram_voicemail/VirtualEnv/bin/python3.6 /opt/telegram_voicemail/scripts/bot_daemon.py
+
+
+[Install]
+WantedBy=multi-user.target
