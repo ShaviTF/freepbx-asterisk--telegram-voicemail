@@ -61,7 +61,7 @@ https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram
 	
 - Copiamos la carpeta scripts y el archivo freepbxbot.ini en la carpeta creada
 
-# Instalación del servicio de publicacion "freepbxtgbot"
+# Instalación del servicio de publicación "freepbxtgbot"
 
 - Creamos el entorno virtual. En este caso especificaremos el comando -p para indicar que versión queremos emplear de python, si solo tenemos una no hará falta ponerlo
 
@@ -109,13 +109,13 @@ https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram
 
   Este proceso se puede hacer tanto desde el interface de freepbx, como modificando el archivo voicemail.conf de asterisk directamente. En este ejemplo lo haremos modificando el archivo directamente porque de esta manera la explicación sirve para cualquier versión de Asterisk y no solo para FreePBX
 
-  - Editamos el archivo /etc/asterisk/voicemail.conf y añadimos la siguiente linea en la sección [general]
+  - Editamos el archivo /etc/asterisk/voicemail.conf y añadimos la siguiente línea en la sección [general]
 
-	externnotify=/opt/telegram_voicemail/scripts/bot_cli.sh
+		externnotify=/opt/telegram_voicemail/scripts/bot_cli.sh
 
   - Reiniciamos Asterisk
 
-	systemctl restart asterisk
+		systemctl restart asterisk
 
 # Funcionamiento
 
