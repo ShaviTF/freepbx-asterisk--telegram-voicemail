@@ -111,11 +111,11 @@ https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram
 
   - Editamos el archivo /etc/asterisk/voicemail.conf y añadimos la siguiente linea en la sección [general]
 
-		externnotify=/opt/telegram_voicemail/scripts/bot_cli.sh
+	externnotify=/opt/telegram_voicemail/scripts/bot_cli.sh
 
-	- Reiniciamos Asterisk
+  - Reiniciamos Asterisk
 
-		systemctl restart asterisk
+	systemctl restart asterisk
 
 # Funcionamiento
 
