@@ -1,7 +1,7 @@
 # Descripción
 
 Este trabajo está basado en el trabajo realizado por sHaggYcaT (https://github.com/sHaggYcaT/telegram_freepbx_bot) y utiliza parte de su código (concretamente el módulo de bot), pero se ha diseñado un nuevo cliente y una nueva manera de integrarlo de forma que no se sacrifique la funcionalidad del envío de correo electrónico nativa de Asterisk.
-Este redme está enfocado a la instalción y utilización del sistema con FreePBX, pero es facilmente portable a otras distribuciones basadas en Asterisk.
+Este documento está enfocado a la instalación y utilización del sistema con FreePBX, pero es fácilmente portable a otras distribuciones basadas en Asterisk.
 
 # Preparación
 
