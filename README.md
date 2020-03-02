@@ -133,11 +133,11 @@ https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram
 
    Si queremos que se envíen los buzones a telegram y además conservarlos en la bandeja de entrada del buzón, ponemos como contexto
 
-      telegram
+	telegram
 
    Si queremos que los mensajes se borren del buzón una vez publicados en telegram, ponemos como contexto
 
-			telegram-delete
+	telegram-delete
 
   Y listo, esto es todo, todos los mensajes que estén en estos contextos serán publicados en el grupo de telegram y si se deséa y se ha configurado, además serán enviados a sus correspondientes buzones de correo.
 
