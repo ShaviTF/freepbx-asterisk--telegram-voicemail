@@ -5,7 +5,7 @@ Este documento está enfocado a la instalación y utilización del sistema con F
 
 # Preparación
 
-Partimos de la base que ya se posee una distribución de FreePBX instalada y que ya tienes creado el bot de telegram y tienes el correspondiente token y el ID del grupo correspondiente. Si no tienes esa parte y no sabes como hacerlo, te dejo un enlace de un tutorial donde se explica.
+Partimos de la base que ya se posee una distribución de FreePBX instalada y que ya tienes creado el bot de telegram y tienes el correspondiente token y el ID del grupo de Telegram. Si no tienes esa parte y no sabes como hacerlo, te dejo un enlace de un tutorial donde se explica.
 
 https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram-para-obtener-el-token-y-el-group-id/
 
