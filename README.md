@@ -73,17 +73,18 @@ https://plexadictos.wordpress.com/2018/03/15/crear-un-bot-y-un-grupo-en-telegram
 
 	(freepbxbot.ini) 
   
-		Actualizamos los valores de "token" y chat_id" con los valores correspondientes a nuestro bot y chat id
+	  Actualizamos los valores de "token" y chat_id" con los valores correspondientes a nuestro bot y chat id
 		
 	(freepbxtgbot.service)
 	
-	Cambiamos las rutas para que correspondan con las que hemos empleado, tanto en 
+	  Cambiamos las rutas para que correspondan con las que hemos empleado:
 		
-		WorkingDirectory (la ruta ha la carpeta scripts), como en 
+		WorkingDirectory (la ruta ha la carpeta scripts)
 		ExecStart (Las rutas de la versión de python en nuestro carpeta VirtualEnv, como la ruta hacia el script bot_daemon.py)
 
 	(bot_cli.sh)
-		Actualizar las rutas correspondientes
+	
+	  Actualizar las rutas correspondientes
 		
 		
 - Creamos un enlace simbólico hacia freepbxbot.ini en /etc
